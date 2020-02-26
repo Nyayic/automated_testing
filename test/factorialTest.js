@@ -1,5 +1,5 @@
 const assert = require('assert')
-// const factorial = require('../models/factorial')
+const factorial = require('../models/factorial')
 
 function factorial(x) {
   return (x !==1)? x * factorial(x-1):1;
